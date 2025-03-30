@@ -2,6 +2,8 @@
 #include <string>
 #include "GameDecisionTree.h"
 using namespace std;
+
+
 int main() {
     GameDecisionTree<Story> myGame;
 
@@ -10,9 +12,7 @@ int main() {
 
     // Load the story data from the file
     myGame.loadStoryFromFile(filename, delimiter);
-
     // Start the game
     myGame.playGame();
-
     return 0;
 }

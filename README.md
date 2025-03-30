@@ -2,27 +2,24 @@
 # CS210 Data Structures SP25
 ## Programming Assignment 2: Text-Based RPG Using Decision Trees
 
-### **Student Name:** `[Your Name]`  
-### **Student ID:** `[Your ID]`  
+### **Student Name:** Jackson Scott  
+### **Student ID:** 129967055  
 
 ---
 
 ## **1. Project Overview**
-(Provide a brief summary of your RPG game. Describe how it uses a decision tree and how the player interacts with it.)
-
-Example:
-> This project implements a text-based RPG using a **binary decision tree**. Each game event is represented as a node, and the player progresses by choosing between two paths at each stage. The storyline is loaded from an external text file (`story.txt`), which is parsed to construct the decision tree. The game ends when a leaf node (with `-1` as left and right children) is reached.
+This game is a simple RPG where you are dropped in the middle of a forest and you have to find your way home. You are faced with binary decisions along the way that affect the path your story will take. It does this by using a txt file to read in the events and their keys, they are then turned into story objects that become nodes in the tree. The it starts the game which reads in the root node, and displays the description stored in that node. From the descirption the users are given two options and are prompted to enter 1 or 2 and depending on what they pick it traverses the tree based off the decisions. This allows for re-playability since they can pick a new path down the tree everytime.  
 
 ---
 
 ## **2. Folder & File Structure**
 (Explain the role of each file in your project.)
 
-- **`main.cpp`** → `[Describe its function]`  
-- **`GameDecisionTree.h`** → `[Explain what this file contains]`  
-- **`Node.h`** → `[Explain what this file contains]`  
-- **`Story.h`** → `[Explain what this file contains]`  
-- **`story.txt`** → `[Explain how the game loads story events from this file]`  
+- **`main.cpp`** → The main.cpp files function is the commands to execute the code to set up and run the game, it allows the user to run the game all in one click
+- **`GameDecisionTree.h`** → The game decision tree file holds the game decision tree class which creates the decision tree which is like the skeleton of the game. It also contains the associated functions to read in the text file to create the nodes and fill in the tree, and the function to run the game using the decision tree, allowing user input to make choices.
+- **`Node.h`** → This file contains the node class, the node is made to take in the story class from the Story.h file so those objects can be made into the tree, the nodes hold all the needed values including the event key, the children event keys, and the event description from each story object. These nodes are used to build the tree so the user can easily traverse through the tree.
+- **`Story.h`** → The story.h file has the Story class, the story class is where the text is converted into the node keys and the description and held in the story objects. The story objects are to be implemented into nodes where they can build the decision tree. 
+- **`story.txt`** → The story.txt file holds the game events, where each event is a line, with in each line is a 3 integer values and a description all seperated by the delimiter "|", this delimiter allows the text to be read in and split into the correct parts, the event number, description, and its two child nodes event number. This is used in the game decision tree file to build the Story objects to make the tree nodes. 
 
 ---
 
@@ -62,7 +59,18 @@ Example:
 ---
 
 ## **7. Sample Output & Walkthrough**
-(Provide an example of how the game runs, including player input.)
+You wake up alone in a forest, with no memory of how you got there. All you know is that you have to get home in time for dinner. (1) Follow down the stream (2) Walk deeper into the forest
+Option 1 or 2: 1
+You follow down the stream and you see a bear fishing in the river. (1) Calmly walk past (2) Run away
+Option 1 or 2: 1
+You keep walking and the bear doesn’t react. You then see a boat downstream, but also some people having a picnic in the forest. (1) Try to get the boat’s attention (2) Go to the people
+Option 1 or 2: 2
+The people having a picnic turn out to be vampires and they come at you. You see a knife and a stick on the ground. (1) Pick up the stick (2) Pick up the knife
+Option 1 or 2: 2
+The knife doesn’t affect the vampires, and they bite you and take all your blood.
+Game Over :(
+
+Process finished with exit code 0
 
 ---
 
