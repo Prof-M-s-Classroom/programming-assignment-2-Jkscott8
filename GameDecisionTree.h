@@ -110,7 +110,7 @@ public:
                 gameNode = gameNode -> right;
             }
             else {
-                cout << "Invalid input enter 1 or 2" << endl;
+                gameNode = gameNode -> left;
             }
         }
     }
