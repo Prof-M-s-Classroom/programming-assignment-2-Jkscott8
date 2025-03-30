@@ -86,6 +86,7 @@ public:
 
     // TODO: Function to start the game and traverse the tree based on user input
     void playGame() {
+        cout << "Welcome to the RPG" << endl;
         Node<Story>* gameNode = root;
         int input;
         while (gameNode != nullptr) {
