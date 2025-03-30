@@ -1,6 +1,5 @@
 #ifndef NODE_H
 #define NODE_H
-#include <Story.h>
 
 template <typename T>
 class Node {
@@ -13,7 +12,7 @@ public:
     Node* left;
     Node* right;
 
-    Node(Story value) : data(value),left(nullptr), right(nullptr) {
+    Node(T value) : data(value),left(nullptr), right(nullptr) {
         key = value.eventNumber;
         leftkey = value.leftEventNumber;
         rightkey = value.rightEventNumber;
