@@ -1,6 +1,34 @@
-1 | You wake up in a forest clearing. There are two paths. | 2 | 3
-2 | You follow the path to the left and encounter a river. | 4 | 5
-3 | You go right and find an old cabin. | 5 | 6
-4 | You swim across the river and find a treasure chest. | -1 | -1
-5 | You find a hidden passageway that leads to a secret room. | 7 | -1
-6 | The cabin is empty. You find a trapdoor leading downwards. | -1
+512|You wake up alone in a forest, with no memory of how you got there. All you know is that you have to get home in time for dinner. (1) Follow down the stream (2) Walk deeper into the forest|256|768|
+256|You follow down the stream and you see a bear fishing in the river. (1) Calmly walk past (2) Run away|128|384|
+768|You walk deep into a forest and come across a hill but see a light that might be a way out. (1) Go up for a better view (2) Check out the exit|640|896|
+128|You keep walking and the bear doesn’t react. You then see a boat downstream, but also some people having a picnic in the forest. (1) Try to get the boat’s attention (2) Go to the people|64|192|
+384|The bear is startled and you see the cubs are with it, it starts chasing you. (1) Keep running (2) Try swimming away|320|448|
+640|You go up the hill and it’s too cloudy to get a view but you see a small man meditating. He gives you an offer. (1) A magic rock (2) Advice|576|704|
+896|You walk down and see that the light wasn’t a way out but coming from a cabin. (1) Keep walking (2) Go inside|832|960|
+64|The boat gets close and you see they’re pirates. They give you an offer. (1) Have them drop you off close to home (2) Help them with their mission and split the gold|32|96|
+192|The people having a picnic turn out to be vampires and they come at you. You see a knife and a stick on the ground. (1) Pick up the stick (2) Pick up the knife|160|224|
+320|You keep running, it's gaining on you. (1)Veer left on the path (2)Try Swimming|315|383|
+315|You go left and it's a dead end|-1|-1|
+448|You try swimming and the bear jumps in after you. (1) Get out and run (2) Try to outlast it.|338|450|
+450|The bear catches up and gets you|-1|-1|
+383|Bears are faster and better swimmers; you were done no matter what. The cubs now have dinner for a week.|-1|-1|
+576|You take the rock; he says to shout a color for it to work. You keep walking and a massive wolf starts pursuing you. (1) Throw the rock at it (2) Try to make it work|544|608|
+704|You ask how to get home and he tells you just keep going right and you’ll make it. You listen and head in that direction and make it out.|0|0|
+832|You keep walking and get too deep into the forest; you’re lost. The sun starts to set and you know you’ve missed dinner.|-1|-1|
+960|There’s an old lady inside who tells you a way back but asks if you would like to stay for tea since she doesn’t get many visitors. (1) Go Home (2) Stay|928|992|
+32|The pirates take you downstream till you’re out of the forest.|0|0|
+96|You follow the map, it leads to a cave. You walk inside and there are two paths. (1) Left (2) Right|80|112|
+160|You pick up the stick and stab the first vampire; they turn into dust, causing the second one to turn into a bat and fly away. (1) Check out their stuff (2) Keep walking|144|176|
+224|The knife doesn’t affect the vampires, and they bite you and take all your blood.|-1|-1|
+544|You hit it in the head; the wolf squeals and runs away. You keep walking and make it out.|0|0|
+608|You yell green and the rock turns green, then the wolf eats you. Turns out the magic wasn’t that useful.|-1|-1|
+928|You follow her directions and you make it home, but you made her sad. Did you really win?|-1|-1|
+992|You stay for tea and have a long conversation; you miss dinner but you’re still a winner.|0|0|
+80|You go left and see the treasure, but a blind goblin asks you a riddle to earn its treasure: "What has an eye, but cannot see?" (1) You (2) A sewing needle|72|88|
+112|It leads you to a maze that you get lost in; this causes you to get lost and you don’t make it in time for dinner.|-1|-1|
+144|You check out their stuff and there’s food, but when you pick up gold, it springs a vampire trap. The other vampire returns and takes you to its castle.|-1|-1|
+176|You make it out.|0|0|
+72|You hurt the goblin’s feelings; why would you say that? It denies you the treasure and the pirates leave you because you’re rude.|-1|-1|
+88|You get the treasure and the pirates ask you to stay with them. (1) Become a Pirate (2) Home|84|92|
+84|You become a pirate and go on adventures. So you basically won.|0|0|
+92|They take you home.|0|0|
