@@ -1,1 +1,4 @@
-CMakeLists.txt not found in /Users/jscott/Desktop/CS210_C++/programming-assignment-2-Jkscott8 Select CMakeLists.txt
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /Users/jscott/Desktop/CS210_C++/programming-assignment-2-Jkscott8 -B /Users/jscott/Desktop/CS210_C++/programming-assignment-2-Jkscott8/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/jscott/Desktop/CS210_C++/programming-assignment-2-Jkscott8/cmake-build-debug
