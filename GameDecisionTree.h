@@ -102,6 +102,7 @@ public:
             cout << gameNode -> desc << endl;
             cout << "Option 1 or 2: ";
             cin >> input;
+            cout << input << endl;
             if (input == 1) {
                 gameNode = gameNode -> left;
             }
